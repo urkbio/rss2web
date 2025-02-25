@@ -105,7 +105,7 @@
     async function loadRSS() {
         try {
             // 替换下面的URL为你的RSS源
-            const response = await fetch('https://rss.joomaen.top/telegram/channel/Joomaens', {
+            const response = await fetch('https://bsky.app/profile/did:plc:oej7hhuoytbst4h2rqdk2em5/rss', {
                 cache: 'no-store'
             });
             const text = await response.text();
